@@ -1,0 +1,8 @@
+MUSICAS BOAS
+https://www.youtube.com/watch?v=hBp4dgE7Bho&list=RDg6hNVizTDWA&index=15
+
+SQL ALTER TABLE
+https://www.1keydata.com/pt/sql/sql-alter-table.php
+
+Doc EXPO
+https://docs.expo.dev/

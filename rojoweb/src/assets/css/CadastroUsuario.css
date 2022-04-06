@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif;
+    overflow: hidden
+}
+
+/* PARTE COMPOPNENTES LOGO */
+.mano{
+    background-color: #232323;
+    height: 1000px;
+}
+
+.Cima{
+    height: auto
+}
+
+/* Parte components Pirulas */
+.Pirula{
+    display: flex;
+    justify-content: space-between;
+    width: 101vw;
+    height: 10vw;
+}
+
+
+/* PARTE DO LOGIN */
+
+.usu_login{
+    text-transform: uppercase;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 109px;
+    margin-top: 20px;
+    color: #232323;
+
+}
+
+
+.LOGIN_log{
+    border: none;
+    width: 38%;
+    border-bottom: 3px solid #ffffff;
+    background: transparent;
+    font-size: 2em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.LOGIN_log::placeholder {
+    color: #ffffff;
+}
+
+.login{
+    display: flex;
+    height: 27%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.CorAzul{
+      color: #1C8FD0;
+}
+
+.CorVermelha{
+    color: #C00000;
+}
+
+.Div_Matrix{
+display: flex;
+justify-content: center;
+}
+
+.BotãoCadastrarUsu{
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 12%;
+    height: 30%;
+    background:transparent;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+/* -----------------------------------------------1920----------------------------------------------------- */
+
+@media (max-width: 1920px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif;
+        overflow: hidden
+    }
+    
+    /* PARTE COMPOPNENTES LOGO */
+    .mano{
+        background-color: #232323;
+        height: 1000px;
+    }
+    
+    .Cima{
+        height: auto
+    }
+
+    /* Parte components Pirulas */
+    .Pirula{
+        display: flex;
+        justify-content: space-between;
+        width: 101vw;
+        height: 10vw;
+    }
+    
+    
+    /* PARTE DO LOGIN */
+    
+    /* .usu_login{
+        text-transform: uppercase;
+        font-family: Sarabun;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 109px;
+        margin-top: 20px;
+        color: #232323;
+    
+    } */
+    
+    
+    .Name_Adm{
+        border: none;
+        width: 38%;
+        border-bottom: 3px solid #ffffff;
+        background: transparent;
+        font-size: 2em;
+        cursor: pointer;
+        color: #ffffff;
+    }
+    
+    .Name_Adm::placeholder {
+        color: #ffffff;
+    }
+    
+    .cadastrar_usu{
+        display: flex;
+        height: 35%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .CorAzul{
+          color: #1C8FD0;
+    }
+    
+    .CorVermelha{
+        color: #C00000;
+    }
+    
+    .Div_Matrix{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .BotãoCadastrarUsu{
+        border: 3px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 13px;
+        width: 12%;
+        height: 18%;
+        background: transparent;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        cursor: pointer;
+        transition: border 1s;
+    }
+
+    .BotãoCadastrarUsu:hover,
+    .BotãoCadastrarUsu:focus {
+        border: 3px solid #FF1B00;
+        box-sizing: border-box;
+        border-radius: 13px;
+        width: 12%;
+        height: 18%;
+        background: transparent;
+        color: #FF1B00;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        cursor: pointer;
+    }
+}
+

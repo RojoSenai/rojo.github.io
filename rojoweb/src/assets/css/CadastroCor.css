@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", "Open Sans", Arial, Helvetica, sans-serif;
+    overflow: hidden
+}
+
+.container{
+    background-color: #232323;
+    height: 90vw;
+}
+
+
+/* PARTE COMPOPNENTES LOGO */
+.ContainerLogo_{
+    /* background-color: #232323; */
+    display: flex;
+    justify-content: center;
+    height: 20vw;
+}
+
+.Rojo_{
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 3px;
+}
+
+.Letra-logo_ {
+    height: 20vw;
+    width: 14vw;
+    pointer-events: none;
+    /* animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: Letra-logo; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Letra-logo_ {
+      animation: Letra-logo infinite 50s linear;
+    }
+  }
+
+@keyframes Letra-logo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ConteinerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 50%;
+    width: 12%;
+}
+
+.Imput{
+    border: none;
+    width: 38%;
+    border-bottom: 3px solid #ffffff;
+    background: transparent;
+    font-size: 2em;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.NomeCor{
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.ImputFile{
+    display: none;
+}
+
+.ImputFile_{
+    height: 6%;
+    width: 15%;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.BotãoCor{
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 98%;
+    height: 14%;
+    background: transparent;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    cursor: pointer;
+    transition: border 1s;
+}
+
+.BotãoCor:hover,
+.BotãoCor:focus {
+    border: 3px solid #FF1B00;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 98%;
+    height: 14%;
+    background: transparent;
+    color: #FF1B00;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+/* ----------------------------prototipos--------------------------------- */
+
+.ContLogoProt{
+    display: flex;
+    flex-direction: column;
+}
+
+.ContFormProt{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    height: 44vw;
+    align-items: center;
+}
+
+.PrototiposConteiner{
+    display: flex;
+    justify-content: space-around;
+    width: 621px;
+    height: 425px;
+    /* background-color: rgba(190, 157, 64, 0.986); */
+    border-radius: 13px;
+}
+
+.PrototipoEsq{
+    width: 245px;
+    height: 100%;
+    border-radius: 13px;
+    background-color: #B01425;
+}
+
+.HaderProt{
+    width: 100%;
+    height: 12%;
+    border-top-left-radius: 13px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.ContHader{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContAmbur{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.Amburguer{
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #B01425;
+}
+
+.FotoPerfil{
+    width: 28px;
+    height: 28px;
+    border-radius: 100px;
+    background-color: #D0CFCF;
+}
+
+.BannerProt{
+    width: 100%;
+    height: 21%;
+    background-color: #D0CFCF;
+}
+
+.MenuCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 67%;
+    justify-content: space-evenly;
+}
+
+.BolinhaAlinhada{
+    display: flex;
+    width: 88%;
+    justify-content: space-around;
+}
+
+.Bolinha{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #D0CFCF;
+}
+
+.PrototipoDir{
+    width: 245px;
+    height: 100%;
+    border-radius: 13px;
+    background-color: #B01425;
+    display: flex;
+}
+
+.DentroMenuB{
+    height: 100%;
+    width: 50%;
+    background-color: #B01425;
+}
+
+.BorroCinza{
+    height: 100%;
+    width: 50%;
+    background-color: #c4c4c475;
+}
+
+.ContMenuDentro{
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffff;
+}
+
+.CimaMenu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.BaixoMenu{
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
